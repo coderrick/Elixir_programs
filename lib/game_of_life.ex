@@ -18,9 +18,9 @@ defmodule GameOfLife do
   end
 end
 
-startboard=[[0,0,0],
-            [0,1,0],   
-            [0,0,0]]
+startboard = [[0,0,0],
+              [0,1,0],   
+              [0,0,0]]
             
 GameOfLife.printboard(startboard)
 IO.puts ""
